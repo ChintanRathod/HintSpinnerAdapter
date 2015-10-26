@@ -1,0 +1,2 @@
+# HintSpinnerAdapter
+Hint Spinner Adapter
