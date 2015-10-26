@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HintSpinnerApdater</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="color">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+    </string-array>
+</resources>
