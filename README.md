@@ -6,12 +6,12 @@ This HintSpinnerAdapter allows user to add hint to spinner with very less effor 
 
 <strong>Syntax</strong> 
 
-      hintSpinner.setAdapter(new HintSpinnerAdapter(<User_Created_Adapter_Object>, <hint_layout_item>, context));
+    hintSpinner.setAdapter(new HintSpinnerAdapter(<User_Created_Adapter_Object>, <hint_layout_item>, context));
       
 <strong>Example</strong>
 
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.color, android.R.layout.simple_spinner_item);
-        hintSpinner.setAdapter(new HintSpinnerAdapter(adapter, R.layout.hint_row_item, this));
+    ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+        R.array.color, android.R.layout.simple_spinner_item);
+    hintSpinner.setAdapter(new HintSpinnerAdapter(adapter, R.layout.hint_row_item, this));
         
 ![](https://github.com/rathodchintan/HintSpinnerAdapter/blob/master/HintSpinnerAdapter%20Demo.gif)
